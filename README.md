@@ -3,7 +3,7 @@
 
 <body>
 <div class="header">
-<h1>To Run the Client, right click the client Folder,click"open in intergrated terminal","npm start" in new terminal, type "y", it wi</h1>
+<h1>To Run the Client, right click the client Folder,click"open in intergrated terminal","npm start" in new terminal, type "y"</h1>
   <h1>Insubuy code challenge</h1>
 </div>
 
