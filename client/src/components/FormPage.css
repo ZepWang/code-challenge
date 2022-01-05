@@ -8,7 +8,9 @@
   color:black;
   max-height:700px;
   max-width: 1000px;
+ 
 }
+
 .img{
   width:120px;
   height:50px;
@@ -28,6 +30,9 @@
 }
 .header-text{
   display:inline;
+  font: bold 25px Georgia, serif;
+  margin-left:8px;
+  color:rgb(33, 33, 231)
 }
 .formBody {
   flex: 1;
@@ -45,8 +50,11 @@
 .eachPlan{
   border: 1px solid black;
   font-size:15px;
-  width:100%;
+  width:95%;
+  border-radius: 30px;
   min-width:50px;
+  margin:2px auto;
+  font-weight: bold;
   
 }
 .Plan-comp{
@@ -109,7 +117,7 @@
 .text {
   color: black;
   font-size: 20px;
-  font-weight: bold;
+  font:italic  bold 19px/28px Georgia, serif
 }
 .Buttons {
   grid-area: submit1;
@@ -124,6 +132,9 @@
   margin-left: auto;
   margin-right: auto;
   background-color: coral;
+  margin: 3px;
+  font-size: 15px;
+    color: white;
 
   display: block;
 }
@@ -135,12 +146,12 @@
 }
 input {
   width: 80%;
-  border: 2px solid;
+  border: 1px solid;
   height: 30px;
 }
 select {
   width: 80%;
-  border: 2px solid;
+  border: 1px solid;
   height: 30px;
 }
 @media screen and (max-width: 600px) {

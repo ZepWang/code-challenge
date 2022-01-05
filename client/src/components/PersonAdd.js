@@ -188,7 +188,7 @@ export default class PersonAdd extends React.Component {
     var y = document.getElementsByClassName("eachPlan");
     var i;
     for (i = 0; i < y.length; i++) {
-      y[i].style.width = "100%";
+      y[i].style.width = "95%";
       y[i].style.display = "inline-block";
     }
   };
