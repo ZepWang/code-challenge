@@ -116,7 +116,7 @@ export default class PersonAdd extends React.Component {
       this.state.age === "" ||
       this.state.mailingState === ""
     ) {
-      alert("please fill all information");
+      alert("please fill in all information");
       return;
     }
     if(this.state.endDate<this.state.startDate){
@@ -124,7 +124,11 @@ export default class PersonAdd extends React.Component {
       return;
     }
       if (!this.isValid(this.state.citizenShip)) {
-        alert("citizenship has special character");
+        alert("citizenship cannot have special character!");
+        return;
+      }
+      if (!this.isValid(this.state.mailingState)) {
+        alert("mailingState cannnot have special character!");
         return;
       }
     if (this.state.age > 100) {

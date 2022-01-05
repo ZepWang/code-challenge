@@ -58,7 +58,12 @@
   min-width:50px;
   margin:2px auto;
   font-weight: bold;
+  cursor: pointer;
   
+}
+.eachPlan:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+
 }
 .Plan-comp{
   background-color: white;
